@@ -1,0 +1,21 @@
+{
+  "name": "pruebaglitzi",
+  "version": "1.0.0",
+  "description": "Automatizacion de pruebas en Cypress del sistema de servicios de belleza y spa a domicilio Glitzi.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "qa",
+    "automation",
+    "servicios",
+    "belleza",
+    "spa"
+  ],
+  "author": "Giselle Olvera",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.5.1"
+  }
+}
