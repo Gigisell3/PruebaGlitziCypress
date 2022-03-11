@@ -1,0 +1,13 @@
+Un pequeño párrafo donde describas tus impresiones luego de implementar esta prueba:
+
+Impresiones:
+El objeto a prueba tiene muchas areas de mejora que pueden ayudar a la experiencia de usuario, 
+así como a la automatización de las pruebas
+Se podría implementar un buscador para localizar los servicios de una manera maás sencilla
+No todos los elementos web tienen un id, lo que dificulta a veces la localización de los mismos
+Hubo algunos temas al intentar automatizar la selección del dropdown, ya que por la naturaleza del elemento, es complicado seleccionar los items de la lista.
+Definitivamente es una prueba que se puede mejorar a nivel de especificación y de los recursos utilizados para la misma.
+Hay un bug cuando se agregan direcciones en el paso para programar la cita.(Cuando se tienen dos direcciones ya no permite agregar una más y pareciera que si debería permitirlo)
+La disponibilidad de horarios depende de la localización por lo que en las precondiciones de la prueba es importante especificar los datos necesarios para hacer la ejecución
+
+

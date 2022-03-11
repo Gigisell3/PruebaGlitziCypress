@@ -6,7 +6,7 @@ describe('Logearse, buscar, añadir y eliminar un servicio del carrito', functio
         .log("Iniciando sesión")
         cy
         .visit ('/')
-        .wait(4000)
+        .wait(5000)
         .get('.modal-closes').click()
         cy
         .get('#log-in-link_').click()
@@ -42,10 +42,9 @@ describe('Logearse, buscar, añadir y eliminar un servicio del carrito', functio
         .get('.col-8 > .form-check > .form-check-label > .circle').click()
         .get('#next').click()
         cy
-        .get('.icon-arrow-right').click()
-        .get(':nth-child(1) > .pignose-calendar-unit-sat > a').click()
-        .get('#li-morning-tab-pane > .nav-link > .fas').click()
-        .get('#time-7 > .col-12 > .btn').click()
+        .get(':nth-child(2) > .pignose-calendar-unit-sat > a').click()
+        .get('#li-late-tab-pane > .nav-link > .fas').click()
+        .get('#time-11 > .col-12 > .btn').click()
         .get('#next').click()
         .get('#next').click()
         .get('.justify-content-center > :nth-child(4) > .nav-link').click()
@@ -53,10 +52,5 @@ describe('Logearse, buscar, añadir y eliminar un servicio del carrito', functio
         .get('.justify-content-center > :nth-child(4) > .nav-link').click()
         .get('.no-header-page').should('contain','Tu bolsa está vacía')
         })
-
-
     })
 
-    
-//Falta un buscador
-//Los elementos no tienen id, lo que dificulta agregar su selector
