@@ -43,6 +43,7 @@ describe('Logearse, buscar, añadir y eliminar un servicio del carrito', functio
         .get('#next').click()
         cy
         .get(':nth-child(2) > .pignose-calendar-unit-sat > a').click()
+        //Todas las localizaciones que probé no tenían disponibilidad en la noche, seleccioné la última de la tarde
         .get('#li-late-tab-pane > .nav-link > .fas').click()
         .get('#time-11 > .col-12 > .btn').click()
         .get('#next').click()
